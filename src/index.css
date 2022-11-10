@@ -13,8 +13,13 @@ code {
 }
 
 .app {
+    display: flex;
+    justify-content: space-between;
     text-align: center;
     margin: 300px auto 0;
+    width: 80%;
+    max-width: 1000px;
+    gap: 40px;
 }
 
 .counterTitle {
@@ -85,6 +90,16 @@ code {
     border-color: #7032e2;
 }
 
+.settingsButton{
+    border: 1px solid #70cd8e;
+    background: #70cd8e;
+}
+
+.settingsButton:hover{
+    background: #1a9e41;
+    border-color: #1a9e41;
+}
+
 .resetButton {
     background-color: #e4eaec;
     border-color: #e4eaec;
@@ -101,4 +116,8 @@ code {
     background: #e4eaec;
     border-color: #e4eaec;
     cursor: unset;
+}
+
+.settings{
+
 }

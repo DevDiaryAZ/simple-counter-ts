@@ -4,7 +4,7 @@ type DefaultButtonPropsType = DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonE
 
 export type ButtonType = DefaultButtonPropsType & {
     callback: () => void
-    currentDisabled: boolean
+    currentDisabled?: boolean
     className?: string
 }
 
